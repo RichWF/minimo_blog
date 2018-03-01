@@ -1,0 +1,120 @@
+@font-face{
+    font-family: Inconsolata-Regular;
+    src: url(../fonts/Inconsolata-Regular/Inconsolata-Regular.ttf);
+}
+
+@font-face{
+    font-family: PlayfairDisplay-Regular;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+
+@font-face{
+    font-family: Ubuntu-Light;
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+.wrap {
+  width: 893px;
+  margin: 0 auto;
+}
+
+.header {
+  width:1061px;
+  padding-top: 68px;
+  margin:0 auto;
+  height: 23px;
+}
+
+.header .logo {
+  width: 119px;
+  height: 23px;
+  font-size: 30px;
+  line-height: 24px;
+  font-family: Inconsolata-Regular;
+  color: #000;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight:normal;
+}
+
+.header .menu {
+  float: right;
+  font-size: 14px;
+  font-family: PlayfairDisplay-Regular;
+  color: #626262;
+  line-height: 24px;
+  height: 11px;
+}
+
+.header .menu ul {
+  list-style: none;
+  display: inline;
+}
+
+.header .menu ul li {
+  display: inline;
+  margin-left: 95px;
+}
+
+.header .menu ul li a{
+    display: inline;
+}
+
+.wrap .tips {
+  font-size: 14px;
+  font-family: Ubuntu-Light;
+  color: #B4AD9E;
+}
+
+.wrap .title {
+  font-size: 30px;
+  font-family: PlayfairDisplay-Regular;
+  color: #626262;
+}
+
+.wrap .content {
+  font-size: 14px;
+  font-family: PlayfairDisplay-Regular;
+  color: #626262;
+  line-height: 24px;
+}
+
+.footer {
+  margin-top: 50px;
+  height: 97px;
+  background-color: #F0F0F0;
+  font-size: 14px;
+  font-family: PlayfairDisplay-Regular;
+  color: #000;
+  line-height: 24px;
+}
+
+.footer .left {
+  height: 12px;
+  float: left;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.footer .right{
+    margin-top: 40px;
+    margin-right: 100px;
+    float: right;
+    height: 12px;
+}
+
+.footer  .right ul{
+    list-style: none;
+}
+
+.footer .right li{
+    display: inline;
+    margin-left: 20px;
+}
+
+
+.footer .right li img{
+    display: inline;
+}

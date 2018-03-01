@@ -1,0 +1,38 @@
+body,div,dl,dd,ul,li,input,form,textarea,h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+    vertical-align:baseline;
+}
+
+select{
+    border: 1px solid #000000;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+img{
+    border: none;
+    display: block;
+}
+
+.clearfloat{
+    zoom: 1;
+}
+
+.clearfloat:after{
+    clear: both;
+    content: " ";
+    width: 0;
+    height: 0;
+}
